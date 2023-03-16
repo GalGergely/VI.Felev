@@ -1,0 +1,16 @@
+﻿cl : command line  warning D9002: ignoring unknown option '/utf8'
+  main.cpp
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(16,23): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(16,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(16,26): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(16,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(25,23): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(25,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(25,26): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(25,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(107,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(123,28): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(126,28): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(129,28): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\02_SDLEvents\main.cpp(132,28): warning C4305: '-=': truncation from 'double' to 'float'
+  02_SDLEvents.vcxproj -> C:\Egyetem\VI.Felev\Számítógépes Grafika\02_SDLEvents\Debug\02_SDLEvents.exe
