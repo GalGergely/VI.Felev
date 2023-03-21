@@ -1,0 +1,3 @@
+﻿  MyApp.cpp
+C:\VI.Felev\Számítógépes Grafika\01_Shaders\01_Shaders\MyApp.cpp(79,64): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  01_Shaders.vcxproj -> C:\VI.Felev\Számítógépes Grafika\01_Shaders\x64\Debug\01_Shaders.exe
