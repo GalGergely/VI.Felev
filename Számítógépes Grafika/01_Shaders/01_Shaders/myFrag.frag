@@ -9,14 +9,24 @@ out vec4 fs_out_col;
 
 uniform float sugar = 1;
 
+vec2 cplx_mul(vec2 u, vec2 v) {
+	return vec2(
+		u.x * v.x - u.y * v.y,
+		u.x * v.y + u.y * v.x
+	);
+}
+
 void main()
 {
-	float a = pow(vs_out_pos.x, 2) + pow(vs_out_pos.y, 2);
-	if(a + 0.1 > sugar && a - 0.1 < sugar) {
-		fs_out_col = vs_out_col;
-	} else {
-		discard;
+
+	vec2 c = vs_out_pos.xy; 
+	vec2 z = c;
+	for (int i = 0; i<30; i++) {
+		z = cplx_mul(z,z) + c;
 	}
+	if (length(z) < 2)
+		fs_out_col = vs_out_col;
+	else discard;
 	//				  R, G, B, A
 		
 	//				  R, G, B, A
