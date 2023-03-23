@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm window</title>
+</head>
+<body>
+    <confirm-window>
+        <a href="visible_password.html" target="_blank" id="link"> Click here for password! </a>
+    </confirm-window>
+    <template id="confirm-window-template">
+        <slot></slot>
+    </template>
+    <script src="confirm_window.js"></script>
+</body>
+</html>
