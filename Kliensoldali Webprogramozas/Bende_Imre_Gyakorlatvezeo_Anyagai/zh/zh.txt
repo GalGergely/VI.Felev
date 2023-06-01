@@ -1,0 +1,11 @@
+1. Az oldalon helyezkedjen el egy objektum (pl.: egy div kör/téglalap formájában)!
+Görgetés hatására a színe fokozatosan változzon, annak megfelelõen, hogy éppen az oldal mely részénél tartunk!
+(Az oldal magassága, illetve az adott objektum legyen elég nagy ahhoz, hogy gördíteni lehessen az oldalon)
+
+2. Készíts egy összecsukható listát egységbezárással, vagy webkomponens használatával!
+a. A listát úgy fejlesszd tovább, hogy rákattintva összecsúkódik, majd kinyílik!
+b. Működjön tetszőleges mélységben egymásba ágyazott listákra is!
+
+3. Webkomponens használatával készíts egy olyan input mezőt, 
+amely csak a komponensnek átadott regexpnek (tehát ez paraméterként legyen meghatározva)
+megfelelõ karaktereket fogad el!

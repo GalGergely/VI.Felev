@@ -1,0 +1,10 @@
+0. Hozzunk létre egy Home képernyőt ami a menün keresztül is elérhető! (bejelentkező oldal, statikus formában)
+1. A Tracks oldalt bontsuk további részekre:
+- Track: táblázat egy sora
+- TrackAction: táblázat sorához tartozó funkciógombok
+- TrackForm: modal ablakban lévő form tartalma (->)
+2. A semantic-ui-react segítségével hozzuk létre a felugró ablakot, melyen keresztül újabb zeneszámot lehet hozzáadni!
+- a popup megjelenítése legyen állapotváltozókkal kezelve
+- első körben a form beküldését követően elég az értékeket konzolba kiírni
+- egy új zeneszámnál az előadó neve, szám címe és a hossza kötelező, 
+    ha azok nincsenek töltve akkor legyen az színezéssel jelezve, valamint egy listában is jelenjenek meg a hibák

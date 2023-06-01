@@ -1,0 +1,6 @@
+Aktuális idő
+Készíts egy komponenst, amely kiírja az aktuális időt így: "The current local time is: #time#"!
+
+Jelenítsd meg ezt a komponenst!
+A ReactDOM.render() hívást ismételd másodeprcenként!
+Nyisd meg a webfejlesztési eszköztárat és elemezd, hogy milyen változások történnek a DOM-ban!
